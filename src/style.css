@@ -31,18 +31,18 @@
     margin-bottom: 0px !important;
 }
 .inquirybtn-home-services{
-    background-color: #b7c500;
-    border-color: transparent;
-    padding: 9px 45px;
-    color: #000000;
-    font-weight: bold;
-    width: 94%;
-    margin: 10px;
+    background-color: #b7c500 !important;
+    border-color: transparent !important;
+    padding: 9px 45px !important;
+    color: #000000 !important;
+    font-weight: bold !important;
+    width:91% !important;
+    margin: 10px !important;
 }
 .inquirybtn-home-services:hover{
-    background-color: #495057;
-    color: #ffffff;
-    border-color: transparent;
+    background-color: #495057 !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
 } 
 .textarea-request-home-services{
     overflow: visible;
@@ -90,7 +90,7 @@
     position: fixed;
      top: 160px; 
      right: 0px; 
-     width: 300px; 
+     width: 260px; 
      background-color:white;
      z-index: 99;
      border: 1px solid #ced4da;
@@ -128,7 +128,7 @@ font-weight: bold;
     background-color: transparent;
     overflow: visible;
     color: #495057;
-    width: 94%;
+    width: 100%;
     display: block;
     outline: none;
     line-height: inherit;
@@ -215,42 +215,42 @@ font-weight: bold;
     cursor: pointer; 
   }
   .button-free-councelling-services {
-    float: right;
-    margin-right: -69px;
-    margin-top: 10x;
-    width: 60px;
-    border: 1px solid #ced4da;
-    padding: 12px;
-    font-size: large;
+    float: right !important;
+    margin-right: -69px !important;
+    margin-top: 10x !important;
+    width: 60px !important;
+    border: 1px solid #ced4da !important;
+    padding: 12px !important;
+    font-size: large !important;
     background-color: #ffffff !important;
     color: #b7c500 !important;
-    position: fixed;
-    top: 160px;
-    z-index: 99;
-    right: 68px;
-    border-right: 0px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    transition: all 1s ease;  
+    position: fixed !important;
+    top: 160px !important;
+    z-index: 99 !important;
+    right: 68px !important;
+    border-right: 0px !important;
+    border-bottom-left-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+    transition: all 1s ease !important;  
   }
   .button-free-councelling-services-on-click {
-    float: right;
-    margin-right: 233px;
-    margin-top: 10px;
-    width: 60px;
-    border: 1px solid #ced4da;
-    padding: 12px;
-    font-size: large;
+    float: right !important;
+    margin-right: 186px !important;
+    margin-top: 10px !important;
+    width: 60px !important;
+    border: 1px solid #ced4da !important;
+    padding: 12px !important;
+    font-size: large !important;
     background-color: #ffffff !important;
     color: #b7c500 !important;
-    position: fixed;
-    top: 150px;
-    z-index: 99;
-    right: 68px;
-    border-right: 0px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px; 
-    transition: all 1s ease;  
+    position: fixed !important;
+    top: 150px !important;
+    z-index: 99 !important;
+    right: 68px !important;
+    border-right: 0px !important;
+    border-bottom-left-radius: 5px !important;
+    border-top-left-radius: 5px !important; 
+    transition: all 1s ease !important;  
   } 
   
   .snackbar {

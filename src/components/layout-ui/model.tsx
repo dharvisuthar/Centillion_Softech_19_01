@@ -142,22 +142,20 @@ const Modal = () => {
             <h3 className="h3-request-homebar-services">Schedule</h3>
             <div className="request-div-home">
               <Grid container className="row-width-100">
-                <Grid item lg={10} >
-                  <div className="form-group">
+                  <div>
                     <TextField type="date" value={date} className="input-request-home-services-date"
                       InputLabelProps={{ shrink: true }} onChange={handleChangeDate}></TextField>
                   </div>
-                  <div className="form-group">
+                  <div>
                     <input type="text" id="Name" className="input-request-home-services" placeholder="Your name" />
                   </div>
-                  <div className="form-group">
+                  <div>
                     <input type="email" id="Email" className="input-request-home-services" placeholder="Email address" />
                   </div>
-                  <div className="form-group">
+                  <div>
                     <input type="number" id="Phone" className="input-request-home-services" placeholder="Phone number" />
                   </div>
                   <Button className="inquirybtn-home-services" onClick={handleSave}>Send Inquiry</Button>
-                </Grid>
               </Grid>
             </div>
           </Paper>
