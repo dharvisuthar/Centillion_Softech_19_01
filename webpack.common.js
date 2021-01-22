@@ -14,7 +14,7 @@ module.exports = {
     ],
     output: {
         path: path.join(basePath, 'dist'),
-        filename: 'SweetConfections.js',
+        filename: 'centillionSoftech.js',
     },
     target: "web",
     module: {

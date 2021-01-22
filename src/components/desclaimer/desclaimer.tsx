@@ -25,7 +25,7 @@ const Desclaimer = () => {
                         <CardMedia image={desclaimerLogo as any} className="contactus_firstdiv_grid_image"></CardMedia>
                     </Grid >
                 </Grid>
-                <Grid container spacing={2} className="desclaimer_seconddiv_padding width-100">
+                <Grid container className="desclaimer_seconddiv_padding width-100">
                     <Grid item xs={12} sm={12} md={12} lg={12}></Grid>
                     <h3 className="p-privacy-policy colorb7c500-privacy-policy">Find us Right Now</h3>
                     <p className="p-privacy-policy">Best <span className="font-weight-600">{companyName}</span> is a Ahmedabad based IT company, Our core expertise lies in Software Development, Website Design & Development, Mobile App Development, E-commerce Website Solutions and Web Marketing Services. While this website may showcase client logos & projects, these materials are copyright to their respective owners and Best <span className="font-weight-600">{companyName}</span> does not suggest any ownership over these logos or project, implied or otherwise unless specifically mentioned.</p>
@@ -38,7 +38,7 @@ const Desclaimer = () => {
                     <h3 className="p-privacy-policy colorb7c500-privacy-policy">Other Parties</h3>
                     <p className="p-privacy-policy">You accept that, as a limited liability entity, Best <span className="font-weight-600">{companyName}</span> has an interest in limiting the personal liability of its officers and employees. You agree that you will not bring any claim personally against Best <span className="font-weight-600">{companyName}</span> officers or employees in respect of any losses you suffer in connection with the website. You agree that the limitations of warranties and liability set out in this website disclaimer will protect Best <span className="font-weight-600">{companyName}</span> officers, employees, agents, subsidiaries, successors, assigns and sub-contractors as well as Best <span className="font-weight-600">{companyName}</span>.</p>
                 </Grid>
-                <Grid container spacing={2} className="aboutus_expension_container width-100">
+                <Grid container className="aboutus_expension_container width-100">
                     <ExpansionPanel className="aboutus_expension_width">
                         <ExpansionPanelSummary
                             expandIcon={<FaExpandAlt className="color-white" />}

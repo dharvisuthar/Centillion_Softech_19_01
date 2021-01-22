@@ -6,7 +6,7 @@ import { useMediaPredicate } from "react-media-hook";
 import { FaBars, FaAngleRight, FaSearch } from 'react-icons/fa';
 import { HashLink as Link } from 'react-router-hash-link';
 import { AppBar, CardMedia, Grid } from "@material-ui/core";
-import * as LogoImage from "../../images/Logo4.png";
+import * as LogoImage from "../../images/CentillionLogo.svg";
 import "../../style.css";
 
 const Header = () => {

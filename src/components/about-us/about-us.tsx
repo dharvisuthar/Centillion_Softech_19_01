@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavigationPaths } from '../../enums/navigation-paths';
 import { withRouter } from 'react-router-dom';
 import * as skypeLogo from "../../images/IconSkype.png";
 import * as grouppicLogo from "../../images/photo6.jpg";
@@ -11,7 +10,6 @@ import * as atxBoatsImage from "../../images/atxboats.png";
 import * as niftyCartImage from "../../images/niftycart.png";
 import * as doctymeImage from "../../images/doctyme.png";
 import * as labcantonImage from "../../images/labcanton.png";
-import * as exultitImage from "../../images/exultit.png";
 import * as fyuzeImage from "../../images/fyuzeapp.png";
 import * as memoImage from "../../images/memomaker.png";
 import * as ExultImage from "../../images/Exultitsolution.jpg";
@@ -27,8 +25,8 @@ import * as eventalog6 from "../../images/eventalogsix.jpg";
 import * as eventalog7 from "../../images/eventalogseven.jpg";
 import * as eventalog8 from "../../images/eventalogeight.jpg";
 import * as eventalog9 from "../../images/eventalognine.jpg";
-import { IconButton, Grid, Theme, Button, withStyles, CardMedia, createStyles } from "@material-ui/core";
-import { companyName, compPhoneNumber } from '../../providers/comp-contact-provider';
+import { IconButton, Grid, CardMedia } from "@material-ui/core";
+import { companyName} from '../../providers/comp-contact-provider';
 import { FaExpandAlt } from 'react-icons/fa';
 import Modal from "../layout-ui/model";
 import Slider from 'react-slick';
@@ -54,7 +52,7 @@ const AboutUs = () => {
             <div className="main_div">
                 <div className="hide_div"></div>
                 {/* about us first div */}
-                <Grid container className="aboutus_first_container">
+                <Grid container spacing={6} className="aboutus_first_container">
 
                     <Modal />
                     <Grid item xs={12} sm={12} lg={6} md={6} >
@@ -68,7 +66,7 @@ const AboutUs = () => {
                     </Grid >
                 </Grid>
 
-                <Grid container className="aboutus_expension_container">
+                <Grid container spacing={3} className="aboutus_expension_container">
                     <ExpansionPanel className="aboutus_expension_width">
                         <ExpansionPanelSummary
                             expandIcon={<FaExpandAlt className="color-white" />}

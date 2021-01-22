@@ -309,7 +309,7 @@ font-weight: bold;
     width: 100%;
 }
 .aboutus_expension_container {
-    padding: 2% 4% 5% 4%;
+    padding: 2% 1%;
 }
 .aboutus_expension_width {
     width: 100%;
@@ -393,7 +393,6 @@ font-weight: bold;
     padding: 5px;
 }
 .aboutus_first_container {
-    padding: 2% 5% 2% 5%;
     width: 100%;
     margin: 0px;
 }
@@ -434,6 +433,7 @@ font-weight: bold;
     }
     .menubar-paddingtop {
     padding-top: 30px !important;
+    text-align: right;
 }
 .a-navbar-header-menu{
     font-size: 20px;
@@ -464,6 +464,7 @@ font-weight: bold;
     justify-content: space-between;
     background-color: #2a2f35;
     min-height: 50px;
+    padding: 0px !important;
 }
 .contactus-firstdiv-image{
     height: 18px;
@@ -557,7 +558,7 @@ font-weight: bold;
 }
 .comp-logo{
     height: 70px;
-    width: 240px;
+    width: 215px;
     padding: 0px;
     float: left;
 }
@@ -866,7 +867,7 @@ border-radius: 0px !important;
 .portfolio-mobile-first {
     color: #2a2f35;
     background-color: #ffffff;
-    padding: 60px;
+    padding:2%;
     height: 480px;
 }
 .portfolio_mobile-first-h1{
@@ -1123,6 +1124,12 @@ border-radius: 0px !important;
     width:100% !important;
 }
 @media screen and (max-width: 769px) {
+    .aboutus_first_container {
+        padding: 2% 5%;
+    }
+    .aboutus_expension_container {
+        padding: 2% 5%;
+    }
     .topbar-toolbar{
         padding:  0px !important;
     }
