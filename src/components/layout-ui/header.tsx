@@ -13,9 +13,7 @@ const Header = () => {
 
     const biggerThan1200 = useMediaPredicate("(min-width: 1200px)");
     const lessThan1200 = useMediaPredicate("(max-width: 1199px)");
-
     const [isNavVisible, setIsNavVisible] = useState(false);
-
     const toggleNav = () => {
         setIsNavVisible(!isNavVisible);
     };
@@ -25,7 +23,6 @@ const Header = () => {
             <div className="main-container-div-header">
                 <Grid container spacing={2} className="width-100" >
                     <Grid item xs={12} sm={6} lg={8} md={5}>
-                        {/* <span style={{ color: "rgb(0, 0, 0)", fontSize: isMobile ? 30 : 40}}>{companyName}</span> */}
                         <CardMedia image={LogoImage as any} className="comp-logo"></CardMedia>
                         {lessThan1200 && <FaBars className="header-fabbars-icon" onClick={toggleNav} />}
                     </Grid>
@@ -44,7 +41,6 @@ const Header = () => {
                     )}
                 </Grid>
             </div>
-
         </AppBar>
     )
 }

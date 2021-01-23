@@ -33,7 +33,6 @@ const Career = () => {
                         <FormGroup>
                             <CardMedia image={infrastructureLogo as any} className="career_icon_perfect"> </CardMedia>
                         </FormGroup>
-
                         <h2 className="grid_Dash_second_main_h2">INFRASTRUCTURE</h2>
                         <p className="grid_Dash_second_main_p">State-of-the-art engineering facility with high performance devices and connectivity.</p>
                     </Paper>
@@ -43,7 +42,6 @@ const Career = () => {
                         <FormGroup>
                             <CardMedia image={environmentLogo as any} className="career_icon_perfect"> </CardMedia>
                         </FormGroup>
-
                         <h2 className="grid_Dash_second_main_h2">ENVIRONMENT</h2>
                         <p className="grid_Dash_second_main_p">Productivity is function of interest and passion.
 Grow your professional career without compromising your technical focus & interests.</p>
@@ -63,15 +61,10 @@ Grow your professional career without compromising your technical focus & intere
                         <FormGroup>
                             <CardMedia image={cultureLogo as any} className="career_icon_perfect"> </CardMedia>
                         </FormGroup>
-
                         <h2 className="grid_Dash_second_main_h2">CULTURE</h2>
                         <p className="grid_Dash_second_main_p">In our culture the smartest idea wins, not the strongest personality.</p>
                     </Paper>
                 </Grid>
-            </Grid>
-            <Grid container>
-                {/* <h1 className={classes.grid_dash_second_h1}>Open Positions.</h1>
-                    <hr className={classes.hr_border}></hr> */}
             </Grid>
             <Grid container className="main-container-div margin-top-70">
                 <Grid item xs={12} sm={12} md={12} lg={12}>
@@ -118,7 +111,6 @@ Grow your professional career without compromising your technical focus & intere
                     </Paper>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={6}>
-
                 </Grid>
             </Grid>
         </div >

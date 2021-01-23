@@ -29,7 +29,6 @@ const ContactUs = () => {
                     <Paper className="contact-sec-div">
                         <FormGroup>
                             <Grid container>
-
                                 <Grid item xs={6} className="carrer-seconddiv-formgrp-grid">
                                     <input placeholder="Your Name" className="contactus_seconddiv_formgrp_input"></input>
                                 </Grid>

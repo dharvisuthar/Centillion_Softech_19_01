@@ -3,7 +3,6 @@ import { withRouter } from 'react-router-dom';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { MDBProgress } from "mdbreact";
 import { NavigationPaths } from '../../enums/navigation-paths';
-
 const Home = lazy(() => import("../home/home-container"));
 const Aboutus = lazy(() => import("../about-us/about-us-container"));
 const Contactus = lazy(() => import("../contact-us/contact-us-container"));

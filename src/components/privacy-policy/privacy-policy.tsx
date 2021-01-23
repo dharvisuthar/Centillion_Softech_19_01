@@ -80,19 +80,19 @@ const PrivacyPolicy = () => {
                         <p className="heading-privacy-policy">Security of Data</p>
                         <p className="p-privacy-policy">The security of your data is important to us but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
                         <p className="heading-privacy-policy">Service Providers</p>
-                        <p className="p-privacy-policy">We may employ third party companies and individuals to facilitate our Service (“Service Providers”), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used</p>         
-                        <p className="p-privacy-policy">These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>         
+                        <p className="p-privacy-policy">We may employ third party companies and individuals to facilitate our Service (“Service Providers”), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used</p>
+                        <p className="p-privacy-policy">These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
                         <p className="heading-privacy-policy">Links to Other Sites</p>
-                        <p className="p-privacy-policy">Our Service may contain links to other sites that are not operated by us. If you click a third party link, you will be directed to that third party’s site. We strongly advise you to review the Privacy Policy of every site you visit.</p> 
-                        <p className="p-privacy-policy">We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>         
+                        <p className="p-privacy-policy">Our Service may contain links to other sites that are not operated by us. If you click a third party link, you will be directed to that third party’s site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+                        <p className="p-privacy-policy">We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
                         <p className="heading-privacy-policy">Children’s Privacy</p>
-                        <p className="p-privacy-policy">Our Service does not address anyone under the age of 18 (“Children”).</p>   
-                        <p className="p-privacy-policy">We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>         
+                        <p className="p-privacy-policy">Our Service does not address anyone under the age of 18 (“Children”).</p>
+                        <p className="p-privacy-policy">We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
                         <p className="heading-privacy-policy">Changes to This Privacy Policy</p>
-                        <p className="p-privacy-policy">We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the “effective date” at the top of this Privacy Policy.</p>   
-                        <p className="p-privacy-policy">You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>         
+                        <p className="p-privacy-policy">We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the “effective date” at the top of this Privacy Policy.</p>
+                        <p className="p-privacy-policy">You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
                         <p className="heading-privacy-policy">Contact Us</p></Grid>
-                       </Grid>
+                </Grid>
             </div>
         </div>
     )

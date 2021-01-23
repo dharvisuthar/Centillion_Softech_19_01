@@ -63,7 +63,6 @@ export const Footer = () => {
                             <span className="footer_grd4_span"><Link to={"/" + NavigationPaths.PrivacyPolicy} className="a-navbar-header">Privacy Policy</Link></span>
                             <span className="footer_grd4_span"><Link to={"/" + NavigationPaths.Desclaimer} className="a-navbar-header">Disclaimer</Link></span>
                             <span className="footer_grd4_span"><Link to={"/" + NavigationPaths.Career} className="a-navbar-header">Careers</Link></span>
-
                         </Grid>
                         <Grid item xs={12} sm={12} md={6} lg={6} className="footer_grd5">
                             © 2019 {companyName}. All Rights Reserved.

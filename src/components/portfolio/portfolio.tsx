@@ -66,8 +66,7 @@ const PortFolio = () => {
                 <Grid item xs={12} sm={12} lg={6} md={6} className="portfolio-mobile-first">
                     <h1 className="portfolio_mobile-first-h1">Mobile App <span className="color-1e99d4">Development</span></h1>
                     <hr className="why-work-border"></hr>
-                    <h3 className="portfolio-mobile-first-h3">We create amazing experiences for mobile devices. Whether it's native app development across iOS & Android or cross-platform development with tools such as Phonegap, Flutter, React Native we have a proven track record across a range of mobile & tablet technologies.
-</h3>
+                    <h3 className="portfolio-mobile-first-h3">We create amazing experiences for mobile devices. Whether it's native app development across iOS & Android or cross-platform development with tools such as Phonegap, Flutter, React Native we have a proven track record across a range of mobile & tablet technologies.</h3>
                     <button className="portfolio-mobile-button"> Know More </button>
                 </Grid>
                 <Grid item xs={12} sm={12} lg={6} md={6} >
@@ -84,7 +83,6 @@ const PortFolio = () => {
                 </Grid>
             </Grid>
             {/* portfolio third div */}
-
             <Grid container spacing={2} className="portfolio_mobile_third_container">
                 <Grid item xs={12} sm={6} md={4} lg={3} >
                     <Paper>
@@ -360,7 +358,6 @@ const PortFolio = () => {
                 </Grid>
             </Grid>
         </div>
-
     )
 }
 

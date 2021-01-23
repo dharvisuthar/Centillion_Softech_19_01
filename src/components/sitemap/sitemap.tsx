@@ -22,7 +22,7 @@ const SiteMap = () => {
                         <CardMedia image={sitemapLogo as any} className="contactus_firstdiv_grid_image"></CardMedia>
                     </Grid >
                 </Grid>
-                <Grid container spacing={2}  className="footer_seconddiv_padding">
+                <Grid container spacing={2} className="footer_seconddiv_padding">
                     <Grid item xs={12} sm={12} md={12} lg={12} className="border-bt-sitemap">
                         <p className="sitemap_heading">Pages</p>
                         <Grid container className="btm-space-sitemap">
@@ -34,7 +34,6 @@ const SiteMap = () => {
                             <Grid item xs={12} sm={12} md={3} lg={3}><Link to={"/" + NavigationPaths.PrivacyPolicy} className="sitemap-btns">Privacy Policy</Link></Grid>
                             <Grid item xs={12} sm={12} md={3} lg={3}><Link to={"/" + NavigationPaths.Desclaimer} className="sitemap-btns">Desclaimer</Link></Grid>
                             <Grid item xs={12} sm={12} md={3} lg={3}><Link to={"/" + NavigationPaths.Career} className="sitemap-btns">Careers</Link></Grid>
-
                         </Grid>
                     </Grid>
                     <Grid item xs={12} sm={12} md={12} lg={12} className="border-bt-sitemap">
@@ -78,8 +77,7 @@ const SiteMap = () => {
                     </Grid>
                     <Grid item xs={12} sm={12} md={12} lg={12} className="border-bt-sitemap">
                         <p className="sitemap_heading">Hire Developers</p>
-                        <Grid container  className="btm-space-sitemap">
-
+                        <Grid container className="btm-space-sitemap">
                         </Grid>
                     </Grid>
                 </Grid>

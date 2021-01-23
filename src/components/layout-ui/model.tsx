@@ -84,78 +84,33 @@ const Modal = () => {
   return (
     <div>
       <Button className={checked ? 'button-free-councelling-services-on-click' : 'button-free-councelling-services'} onClick={handleChange}><FaCalendarAlt /></Button>
-
       <div className="">
-        <Snackbar
-          anchorOrigin={{
-            vertical: 'top',
-            horizontal: 'center'
-          }}
-          open={open}
-          autoHideDuration={3000}
-          onClose={handleClose}
-        >
-          <SnackbarContent style={{
-            backgroundColor: 'red',
-            marginTop: 30,
-            color: 'white'
-          }}
-            message={msgname}
-          />
+        <Snackbar anchorOrigin={{ vertical: 'top', horizontal: 'center' }} open={open} autoHideDuration={3000} onClose={handleClose}>
+          <SnackbarContent style={{ backgroundColor: 'red', marginTop: 30, color: 'white' }} message={msgname} />
         </Snackbar>
-        <Snackbar
-          anchorOrigin={{
-            vertical: 'top',
-            horizontal: 'center'
-          }}
-          open={open1}
-          autoHideDuration={3000}
-          onClose={handleClose1}
-        >
-          <SnackbarContent style={{
-            backgroundColor: 'red',
-            marginTop: 30,
-            color: 'white'
-          }}
-            message={msgemail}
-          />
+        <Snackbar anchorOrigin={{ vertical: 'top', horizontal: 'center' }} open={open1} autoHideDuration={3000} onClose={handleClose1} >
+          <SnackbarContent style={{ backgroundColor: 'red', marginTop: 30, color: 'white' }} message={msgemail} />
         </Snackbar>
-        <Snackbar
-          anchorOrigin={{
-            vertical: 'top',
-            horizontal: 'center'
-          }}
-          open={open2}
-          autoHideDuration={3000}
-          onClose={handleClose2}
-        >
-          <SnackbarContent style={{
-            backgroundColor: 'red',
-            marginTop: 30,
-            color: 'white'
-          }}
-            message={msgphone}
-          />
-        </Snackbar>
+        <Snackbar anchorOrigin={{ vertical: 'top', horizontal: 'center' }} open={open2} autoHideDuration={3000} onClose={handleClose2}>
+          <SnackbarContent style={{ backgroundColor: 'red', marginTop: 30, color: 'white' }} message={msgphone} /></Snackbar>
         <div className={checked ? 'div-request-mail-onclick' : 'div-request-mail'}>
           <Paper >
             <h3 className="h3-request-homebar-services">Schedule</h3>
             <div className="request-div-home">
               <Grid container className="row-width-100">
-                  <div>
-                    <TextField type="date" value={date} className="input-request-home-services-date"
-                      InputLabelProps={{ shrink: true }} onChange={handleChangeDate}></TextField>
-                  </div>
-                  <div>
-                    <input type="text" id="Name" className="input-request-home-services" placeholder="Your name" />
-                  </div>
-                  <div>
-                    <input type="email" id="Email" className="input-request-home-services" placeholder="Email address" />
-                  </div>
-                  <div>
-                    <input type="number" id="Phone" className="input-request-home-services" placeholder="Phone number" />
-                  </div>
-                  <Button className="inquirybtn-home-services" onClick={handleSave}>Send Inquiry</Button>
+                <div>
+                  <TextField type="date" value={date} className="input-request-home-services-date" InputLabelProps={{ shrink: true }} onChange={handleChangeDate}></TextField>
+                </div>
+                <div>
+                  <input type="text" id="Name" className="input-request-home-services" placeholder="Your name" />
+                </div>
+                <div>
+                  <input type="email" id="Email" className="input-request-home-services" placeholder="Email address" />
+                </div>
+                <div>
+                  <input type="number" id="Phone" className="input-request-home-services" placeholder="Phone number" />
+                </div>
+                <Button className="inquirybtn-home-services" onClick={handleSave}>Send Inquiry</Button>
               </Grid>
             </div>
           </Paper>

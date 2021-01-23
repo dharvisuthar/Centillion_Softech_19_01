@@ -26,7 +26,7 @@ import * as eventalog7 from "../../images/eventalogseven.jpg";
 import * as eventalog8 from "../../images/eventalogeight.jpg";
 import * as eventalog9 from "../../images/eventalognine.jpg";
 import { IconButton, Grid, CardMedia } from "@material-ui/core";
-import { companyName} from '../../providers/comp-contact-provider';
+import { companyName } from '../../providers/comp-contact-provider';
 import { FaExpandAlt } from 'react-icons/fa';
 import Modal from "../layout-ui/model";
 import Slider from 'react-slick';
@@ -53,7 +53,6 @@ const AboutUs = () => {
                 <div className="hide_div"></div>
                 {/* about us first div */}
                 <Grid container spacing={6} className="aboutus_first_container">
-
                     <Modal />
                     <Grid item xs={12} sm={12} lg={6} md={6} >
                         <h1 className="aboutus_first_h1">When you <span className="color-1e99d4">Hire us</span>, You Hire <span className="color-1e99d4">Quality and Excellence</span></h1>
@@ -86,9 +85,7 @@ const AboutUs = () => {
                                         </CardMedia>
                                     </IconButton>chintan.suthar90</Typography>
                                 </Grid>
-
                             </Grid>
-
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
                     <ExpansionPanel className="aboutus_expension_width">

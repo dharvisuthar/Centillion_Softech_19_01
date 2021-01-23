@@ -157,7 +157,6 @@ const Home = () => {
               <h3 className="grid_dash_second_h3_home">Our rich portfolio justifies the fact that {companyName} functions as a World-Class Software Development Company.</h3>
             </Grid>
           </Grid>
-
           <Grid container spacing={2}  className="main-container-div padding-bottom-50">
             <Grid item xs={12} sm={12} lg={4} md={4} className="grid-dash-second-main-paper">
               <CardMedia image={niftyCartImage as any} className="image-perfect"> </CardMedia>
@@ -222,13 +221,6 @@ const Home = () => {
               </div>
               <h3 className="grid-dash-second-main-h2">7wfitness</h3>
             </Grid>
-            {/* <Grid item xs={12} sm={12} lg={4} md={4} className="grid-dash-second-main-paper">
-            <CardMedia image={ExultImage} className="image-perfect"> </CardMedia>
-            <div className="image-perfect-div">              
-              <a href="http://exultitsolution.com/#/" target="_blank"> <Add className="perfect-image-div" /> </a>
-            </div>
-            <h3 className="grid-dash-second-main-h2">Exult-IT Solutions</h3>
-          </Grid> */}
             <Grid item xs={12} sm={12} lg={4} md={4} className="grid-dash-second-main-paper">
               <CardMedia image={etruckingImage as any} className="image-perfect"> </CardMedia>
               <div className="image-perfect-div">
@@ -320,7 +312,6 @@ const Home = () => {
         </div>
       </div>
     </div>
-
   )
 }
 
